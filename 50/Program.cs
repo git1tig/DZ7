@@ -43,12 +43,12 @@ int myRow = 0;
 int myColumn = 0;
 Console.Clear();
 printArray(myArray);
-Console.WriteLine("Введите строку:");
+Console.WriteLine("Введите номер строчки:");
 while (!Int32.TryParse(Console.ReadLine(), out myRow) || myRow <= 0)
 {
     Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
 }
-Console.WriteLine("Введите столбец:");
+Console.WriteLine("Введите номер столбика:");
 while (!Int32.TryParse(Console.ReadLine(), out myColumn) || myColumn <= 0)
 {
     Console.WriteLine("Ввод неверный. Пожалуйста, введите корректное число");
